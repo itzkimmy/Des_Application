@@ -15,7 +15,7 @@ class DESApplication:
     #Gui Creation
     def create_widgets(self):
         #Text Input
-        gui.Label(self.root, text="Text:").pack(pady=(10, 0))
+        gui.Label(self.root, text="Enter Text:").pack(pady=(10, 0))
         self.text_input = gui.Text(self.root, height=5, width=50)
         self.text_input.pack(padx=10)
         
